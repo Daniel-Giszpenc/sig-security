@@ -11,7 +11,7 @@ tool. SRC members are able to automatically generate a structured `json` output 
 their report in `OSV` format improving machine readability of vulnerability
 disclosure.
 
-For more details about the SRC who this is for and the workflow behind this see:
+For more details about the K8s SRC and the workflow behind this see:
 - [Kubernetes Security Release Process and Security Committee
   documentation.](https://github.com/kubernetes/committee-security-response/tree/main)
 - [A Bug’s-Eye View: Kubernetes SIG Security Explains It... Ian C, Tabitha S,
