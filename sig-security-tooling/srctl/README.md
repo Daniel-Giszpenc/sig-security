@@ -2,13 +2,13 @@
 
 The `srctl` tool encodes the standard SRC (Security Response Committee) workflow
 for vulnerability disclosure and announcement across multiple communication
-channels into one tool that can handle consistently export to multiple formats
-(github issue, email, slack). Having this tool also makes adding additional
+channels into one tool that can consistently export to multiple formats
+(github issue, email, slack). Having this tool also makes enabling additional
 potential channels and formats in the future more approachable. 
 
-Repetitive error prone work of the copy and paste variety is handled by the
-tool. SRC members are able to automatically generate a structured json output of
-their report in OSV format improving machine readability of vulnerability
+Repetitive error prone work of the "copy and paste" variety is handled by the
+tool. SRC members are able to automatically generate a structured `json` output of
+their report in `OSV` format improving machine readability of vulnerability
 disclosure.
 
 For more details about the SRC who this is for and the workflow behind this see:
@@ -36,15 +36,7 @@ Example Usage:
 
 ## Installation
 
-```
-git clone https://github.com/kubernetes/sig-security.git
-cd sig-security/sig-security-tooling/srctl
-go build
-```
-
-`go install` is not used because it won't work. There is a mismatch of the
-repository the package lives in on GitHub and the import path recognized from
-the package name in the `go.mod` file.
+`go install k8s.io/sig-security/sig-security-tooling/srctl@main`
 
 ## CLI Usage
 
